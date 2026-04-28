@@ -1,9 +1,7 @@
 package com.practica.genericas;
 
 
-import java.time.LocalDate;
 import java.time.LocalDateTime;
-import java.util.Locale;
 
 public class FechaHora implements Comparable<FechaHora>{
 	Fecha fecha;
@@ -24,17 +22,10 @@ public class FechaHora implements Comparable<FechaHora>{
 		return fecha;
 	}
 
-	public void setFecha(Fecha fecha) {
-		this.fecha = fecha;
-	}
-
 	public Hora getHora() {
 		return hora;
 	}
 
-	public void setHora(Hora hora) {
-		this.hora = hora;
-	}
 
 	@Override
 	public int hashCode() {

@@ -14,30 +14,17 @@ public class Fecha {
         return dia;
     }
 
-    public void setDia(int dia) {
-        this.dia = dia;
-    }
-
     public int getMes() {
         return mes;
-    }
-
-    public void setMes(int mes) {
-        this.mes = mes;
     }
 
     public int getAnio() {
         return anio;
     }
 
-    public void setAnio(int anio) {
-        this.anio = anio;
-    }
-
     @Override
     public String toString() {
-        String cadena = String.format("%2d/%02d/%4d",dia,mes,anio);
-        return cadena;
+        return String.format("%2d/%02d/%4d",dia,mes,anio);
     }
 
 
